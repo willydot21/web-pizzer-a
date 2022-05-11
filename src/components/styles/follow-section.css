@@ -1,0 +1,82 @@
+
+.follow-section {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../media/food/6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 198, 198);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  padding: 80px 0px;
+}
+
+.follow-section p {
+  color: rgb(255, 198, 198);
+}
+
+.follow-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-links a {
+  margin: 20px;
+}
+
+.instagram-link {
+  width: 10vw;
+  height: auto;
+}
+
+.instagram-link img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.facebook-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  width: 9vw;
+  height: 9vw;
+  background-color: white;
+  border-radius: 50%;
+  color: blueviolet;
+}
+
+.bigger-and {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.tlf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.tlf-container span{
+  margin-right: 10px;
+}
+
+@media ( width > 620px ) {
+  .facebook-link {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .instagram-link {
+    width: 4em;
+    height: 4em;
+  }
+}

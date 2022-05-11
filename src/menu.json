@@ -1,0 +1,39 @@
+
+{
+
+  "aliños": {
+    "pimientos aliñados": {
+      "chica": 3.00,
+      "mediana": 5.00,
+      "grande": 8.00
+    },
+
+    "ensaladilla rusa": {
+      "chica": 3.00,
+      "mediana": 5.00,
+      "grande": 9.00
+    },
+
+    "salmorejo": {
+      "chica": "",
+      "mediana": "",
+      "grande": "3.50/uni"
+    },
+
+    "huevas con mayonesa": {
+      "chica": 4.00,
+      "mediana": 6.50,
+      "grande": 9.50
+    },
+
+    "papas alioli": {
+      "chica": 3.00,
+      "mediana": 5.00,
+      "grande": 8.00
+    }
+
+    "coctel": {
+      "chica": 3.00
+    }
+  }
+}

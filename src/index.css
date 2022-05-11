@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+p:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.link-button a {
+  font-family: "Quicksand";
+  font-size: .8em;
+  color: white;
+  padding: 10px 10px;
+  width: 50%;
+  background-color: rgb(255, 76, 76);
+}
+
+/* fonts */
+
+.hero-title {
+  font-family: "Cookie";
+  color: rgb(255, 141, 141);
+  font-size: 4em;
+  font-weight: 100;
+}
+
+.hero-subtitle {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 2.7em;
+  font-weight: bold;
+}
+
+.subtitle-text {
+  z-index: 10;
+  font-size: .7em;
+  color: rgb(40, 40, 40);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+
+.section-title {
+  font-family: "Cookie";
+  font-weight: 400;
+  font-size: 11vw;
+  color: rgb(255, 98, 98);
+}
+
+.section-white-title {
+  font-family: "Cookie";
+  font-weight: 400;
+  font-size: 11vw;
+  color: rgb(255, 255, 255);
+}
+
+.section-subtitle {
+  font-size: 3vw;
+}
+
+.section-text {
+  font-size: 3vw;
+  color: rgb(80, 80, 80);
+  font-weight: 500;
+}
+
+.section-final-text {
+  font-family: "Cookie";
+  font-weight: 400;
+  font-size: 7vw;
+  color: rgb(255, 98, 98);
+}
+/* fonts */
+
+.facebook-icon {
+  color: black; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background-color: rgb(255, 255, 255);
+}
+
+@media ( width > 620px ) {
+
+  .subtitle-text, 
+  .section-final-text, 
+  .section-text {
+    font-size: 1em;
+  }
+
+  .section-title,
+  .section-white-title {
+    font-size: 3.7em;
+  }
+
+  .section-final-text {
+    font-size: 2em;
+  }
+}

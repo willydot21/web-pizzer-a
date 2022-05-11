@@ -1,0 +1,33 @@
+
+.hours-section {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.hours {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hours .separator .section-subtitle{
+  color: rgb(255, 145, 145);
+}
+
+.hours-txt {
+  font-size: .6em;
+}
+
+@media ( width > 500px ){
+  .hours-txt {
+    font-size: .8em;
+  }
+}
+
+
+@media ( width > 650px ){
+  .hours-txt {
+    font-size: 1em;
+  }
+}

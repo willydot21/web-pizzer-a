@@ -1,0 +1,21 @@
+
+.app-navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0px;
+  z-index: 100;
+}
+
+.app-navbar .nav-link {
+  color: white;
+  width: 15%;
+  text-align: center;
+}
+
+.app-navbar .nav-link:hover {
+  color: rgb(219, 219, 219);
+}

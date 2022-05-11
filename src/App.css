@@ -1,0 +1,14 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 202, 169, 0.6)),
+    url('./media/fondo.jpg');
+  ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
