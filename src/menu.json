@@ -1,39 +1,733 @@
 
 {
 
-  "aliños": {
-    "pimientos aliñados": {
+  "Aliños": {
+    "Pimientos Aliñados": {
       "chica": 3.00,
       "mediana": 5.00,
       "grande": 8.00
     },
 
-    "ensaladilla rusa": {
+    "Ensaladilla Rusa": {
       "chica": 3.00,
       "mediana": 5.00,
       "grande": 9.00
     },
 
-    "salmorejo": {
+    "Salmorejo": {
       "chica": "",
       "mediana": "",
       "grande": "3.50/uni"
     },
 
-    "huevas con mayonesa": {
+    "Huevas con Mayonesa": {
       "chica": 4.00,
       "mediana": 6.50,
       "grande": 9.50
     },
 
-    "papas alioli": {
+    "Papas Alioli": {
       "chica": 3.00,
       "mediana": 5.00,
       "grande": 8.00
-    }
+    },
 
-    "coctel": {
-      "chica": 3.00
+    "Coctel": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Papas Aliñadas": {
+      "chica": 2.50,
+      "mediana": 5.00,
+      "grande": 7.50
+    }
+  },
+
+  "Ensaladas": {
+    "Ensalada de la Casa": 5.60,
+    "Ensalada de Pollo + Salsa": 5.60,
+    "Ensalada Tropical": 5.60,
+    "Ensalada César": {
+      "precio": 5.60,
+      "texto": "lechuga, cherry, cabra, nueces, pasas, salsa césar, pollo"
+    },
+    "Ensalada de Pasta": 5.40,
+    "Ensalada Burata": {
+      "precio": 7.00,
+      "texto": "salsas a elegir: mayonesa o salsa rosa"
+    }
+  },
+  
+  "Patatas fritas": {
+    "patatas fritas": {
+      "1/2 Ración": 2.80,
+      "Ración": 4.00
+    },
+
+    "Patatas Fritas Tex-Mex": {
+      "1/2 Ración": 3.00,
+      "Ración": 5.50
+    },
+
+    "Patatas Fritas Bacon y Queso Cheddar": {
+      "1/2 Ración": 4.00,
+      "Ración": 7.00
+    },
+
+    "Papas Bravas": {
+      "1/2 Ración": 3.00,
+      "Ración": 5.40
+    }, 
+
+    "Papas Mojo Picón": {
+      "1/2 Ración": 3.50,
+      "Ración": 6.50
+    },
+
+    "Papas Deluxe (con Salsa a elegir)": {
+      "1/2 Ración": 3.50,
+      "Ración": 6.00
+    },
+
+    "Papas Fritas Tres Quesos": {
+      "1/2 Ración": 4.00,
+      "Ración": 6.50
+    },
+
+    "Papas Salsa Cheddar": {
+      "1/2 Ración": 4.00,
+      "Ración": 6.00
+    },
+
+    "Nachos con queso y Pollo o con Cheddar": {
+      "1/2 Ración": 4.60,
+      "Ración": 7.50
+    },
+
+    "Papas Roguve": {
+      "1/2 Ración": 3.30,
+      "Ración": 5.40
+    }
+  },
+
+  "Tortillas": {
+    "Los Romeros": {
+      "porción": 2.50,
+      "entera": 6.50
+    },
+
+    "Patatas": {
+      "porción": 2.30,
+      "entera": 6.00
+    },
+
+    "Vegetal (Rellena de Mayonesa y Melva)": {
+      "porción": 2.50,
+      "entera": 9.90
+    }
+  },
+
+  "Super Bocatas": {
+    "De Churrasco": 4.50,
+    "Pechuga Empanada": 4.50,
+    "San Jacobo de Cerdo": {
+      "precio": 4.40,
+      "texto": "Lomo, Queso, Jamón y Patatas fritas"
+    },
+    "Especial Tragón (Novedad)": 4.50,
+    "Jamón Serrano y Queso": 4.50,
+    "Serranito de Pollo/Cerdo": {
+      "precio": 4.50,
+      "texto": "Pechuga o Pincho" 
+    },
+    "Tortilla": 4.50,
+    "Tortilla, Carne y Mojo picón": 4.50,
+    "Tortilla y Jamón": 4.50,
+    "Baguette Burger": {
+      "precio": 4.50,
+      "texto": "York, Queso, Lechuga"
+    },
+    "Premium": {
+      "precio": 4.50,
+      "texto": "Lomo, Queso y Jamón"
+    },
+    "Vegetal de Pollo": 4.50,
+    "Vegetal de Atún": 4.50,
+    "Vegetal de Melva": 4.50,
+    "Mixto": 4.50,
+    "Carne al Horno de Leña": 4.50,
+    "Bocadillo de Salchicha Alemana": 4.50,
+    "Steak de Carne": 4.50,
+    "Salsas para Bocadillos": {
+      "precio": 1.00,
+      "salsas": [
+        "Gaucha", "Mojo Picón", 
+        "Salsa de Carne", "Mayonesa",
+        "Alioli", "Brava", "Tex-Mex",
+        "Barbacoa", "Cheddar", "César"
+      ]
+    }
+  },
+
+  "Empanadas": {
+    "Empanada de Atún": {
+      "porción": 2.50,
+      "entera": 14.70
+    }
+  },
+
+  "Empanados": {
+    "Pechuga de Pollo Rellena (2 Quesos)": {
+      "ración": "4.00€/Unid." 
+    },
+
+    "Cinta de Lomo Rellena (Jamón y Quesos)": {
+      "ración": "4.00€/Unid."
+    },
+
+    "Flamenquín": {
+      "ración": "2.40€/Unid."
+    },
+
+    "Bombita": {
+      "ración": "2.50€/Unid."
+    },
+
+    "Croquetas": {
+      "1/2 Ración": 3.00,
+      "ración": 6.00
+    },
+
+    "Lagrimitas de Pollo": {
+      "1/2 Ración": 5.00,
+      "ración": 7.50
+    },
+
+    "Nugget de Pollo": {
+      "1/2 Ración": 4.50,
+      "ración": 6.80
+    },
+
+    "Alitas de Pollo": {
+      "1/2 Ración": 4.00,
+      "ración": 7.00
+    }
+  },
+
+  "Nuestros Arroces": {
+    "Arroz de Cola de Toro": {
+      "chica": 4.00,
+      "mediana": 8.00,
+      "grande": 10.00
+    },
+
+    "Arroz Vegetariano": {
+      "chica": 3.00,
+      "mediana": 5.00, 
+      "grande": 9.00
+    },
+
+    "Arroz Jazmin": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz Risoto": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz Negro": {
+      "chica": 3.00, 
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz Paella": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz Senegal con Ibérico": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz Tres Delicias": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Arroz con Algas (Wakane con Langostinos y Ali Oli)": {
+      "chica": 3.00,
+      "mediana": 6.00,
+      "grande": 9.00
+    }
+  },
+
+  "Comida Casera": {
+    "Bacalao Confitado": {
+      "chica": 3.50,
+      "mediana": 7.00,
+      "grande": 10.50
+    },
+
+    "Carrillada Ibérica al Vino Tinto": {
+      "chica": 3.10,
+      "mediana": 5.60,
+      "grande": 8.20
+    },
+
+    "Habitas con Jamón": {
+      "chica": 3.00,
+      "mediana": 5.60,
+      "grande": 8.00
+    },
+
+    "Espinacas con Garbanzos": {
+      "chica": 3.20,
+      "mediana": 5.00,
+      "grande": 8.00
+    },
+
+    "Pollo al Curry con Verduras": {
+      "chica": 3.20,
+      "mediana": 5.00,
+      "grande": 9.00
+    },
+
+    "Pollo con Almendras": {
+      "chica": 3.20,
+      "mediana": 5.00,
+      "grande": 9.00
+    },
+
+    "Arroz Tres Delicias": {
+      "chica": 3.20,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Pastel de Berenjenas": {
+      "chica": 3.20,
+      "mediana": 5.00,
+      "grande": 9.00
+    },
+
+    "Cus-Cus Marroquí": {
+      "chica": 3.20,
+      "mediana": 6.00,
+      "grande": 9.00
+    },
+
+    "Pimientos del Piquillo": {
+      "chica": 3.20,
+      "Unid.": "1.70€/Unid."
+    },
+
+    "Parrillada de Verduras": {
+      "chica": 3.00,
+      "mediana": 5.00,
+      "grande": 8.00,
+      "texto": "con Parmesano y Albahaca"
+    },
+
+    "Solomillo al Whisky": {
+      "chica": 3.50,
+      "mediana": 6.70,
+      "grande": 9.40
+    },
+
+    "Pisto Manchego": {
+      "chica": 3.00,
+      "mediana": 5.00,
+      "grande": 7.50
+    },
+
+    "Enchilada": {
+      "chica": 4.00,
+      "mediana": 8.00,
+      "grande": 11.00
+    },
+
+    "Anotación final": "+Sugerencias: Preguntar por sugerencias"
+  },
+
+  "Pastas": {
+    "Pastas Gratinadas": {
+      "Canelones Pomodoro": {
+        "1/2 Ración": 6.30
+      },
+      
+      "Canelones a la Boloñesa": {
+        "1/2 Ración": 6.30
+      },
+
+      "Ravioli rellenos de Carne": {
+        "1/2 Ración": 6.30,
+        "ración": 8.60
+      },
+
+      "Tortelini relleno de Carne": {
+        "1/2 Ración": 6.30,
+        "ración": 8.60
+      },
+
+      "Gnocchi": {
+        "1/2 Ración": 6.30,
+        "ración": 8.60
+      },
+
+      "Fusilli (Salsa a elegir)": {
+        "1/2 Ración": 6.00,
+        "ración": 8.60
+      },
+
+      "Fusilli Romano": {
+        "1/2 Ración": 6.00,
+        "ración": 8.70,
+        "texto": "Orégano, Atún, Tomate, Champiñones, Emmental y Mozzarella"
+      },
+
+      "Fusilli al Horno": {
+        "1/2 Ración": 6.00,
+        "ración": 8.70,
+        "texto": "York, Pollo, Mozzarella, Emmental, Orégano, Nata y Tomate"
+      },
+
+      "Fusilli Toscana": {
+        "1/2 Ración": 6.00,
+        "ración": 8.70,
+        "texto": "Gorgonzola, Pasas, Nueces, Cabra, Orégano, Emmental, Nata y Tomate"
+      },
+
+      "Lasaña": {
+        "1/2 Ración": 6.30,
+        "ración": 8.50
+      },
+
+      "Espaguetis Normandía": {
+        "1/2 Ración": 6.30,
+        "ración": 8.60,
+        "texto": "Champiñones, Huevo, Bechamel y 2 Quesos"
+      },
+      
+      "Espaguetis Parmesano": {
+        "1/2 Ración": 6.00,
+        "ración": 8.60,
+        "texto": "Parmesano, Mozzarella, Nata, Salchicha Fresca y Tomate"
+      },
+
+      "Espaguetis Carbonara": {
+        "1/2 Ración": 6.00,
+        "ración": 8.70,
+        "texto": "Nata, Huevo, Beacon, Queso y Tomate"
+      },
+
+      "Salsas a elegir": [
+        "4 Quesos", "Pomodoro",
+        "Carbonara", "Boletus",
+        "Roquefort", "Boloñesa"
+      ]
+    }
+  },
+
+  "Carnes": {
+    "Al Horno de Leña": {
+      "Carne Mechada (Cabeza de Lomo)":{
+        "mediana": 4.50,
+        "grande": 9.00
+      }
+    },
+    
+    "A la Parrilla": {
+      "Pinchito de Pollo": {
+        "precio": 4.00,
+        "texto": "Con Salsa Gaucha y Guarnición"
+      },
+
+      "Churrasco de Pollo": {
+        "precio": 5.00,
+        "texto": "Con Salsa Gaucha y Guarnición"
+      },
+
+      "Pechuga de Pollo": {
+        "precio": 4.50,
+        "texto": "Con Salsa y Guarnición"
+      },
+
+      "Lomo de Cerdo": {
+        "precio": 4.50,
+        "texto": "Con Salsa Gaucha y Guarnición"
+      }
+    }
+  },
+
+  "Sandwich": {
+    "Pollo": 3.00,
+    "Mixto": 3.00,
+    "Atún": 3.00,
+    "Carne Mechada con Queso fundido": 3.50,
+    "Super Pollo": {
+      "precio": 3.70,
+      "texto": "Pollo, York, Queso y Lechuga"
+    }
+  },
+
+  "Hamburguesas y Perritos": {
+    "Hamburguesa de Pollo": {
+      "vegetal": 3.00,
+      "simple": 2.50,
+      "completa": 4.00
+    },
+
+    "Hamburguesa Ibérica": {
+      "completa": 4.90
+    },
+
+    "Hamburguesa de Ternera": {
+      "vegetal": 4.00,
+      "simple": 3.80,
+      "completa": 4.50
+    },
+
+    "Hamburguesa Rom Pollo": {
+      "vegetal": 4.00,
+      "simple": 3.80,
+      "completa": 4.80,
+      "texto": "Pollo Crujiente"
+    },
+
+    "Perrito Serrano": {
+      "precio": 4.50,
+      "texto": "Lomo, Jamón, Pimientos, Salchicha y Patatas fritas"
+    },
+
+    "Perrito": {
+      "vegetal": 3.80, 
+      "simple": 3.60,
+      "completa": 4.00
+    },
+
+    "Hamburguesa Crispy": {
+      "completa": 4.90
+    },
+
+    "Anotación final": "*Todas las hamburguesas con pan brioche"
+  },
+
+  "Repostería Casera": {
+    "Vasitos de tocino de cielo": {
+      "precio": 3.00,
+      "texto": "Con Nata y Nueces."
+    },
+
+    "Vasitos de tres Chocolates": 3.00,
+    "Vasitos de Milhoja": 3.00,
+    "Vasitos de Natilla": 3.00,
+    "Vasitos de Tarta de Queso": 3.00,
+    "Vasitos de Culant de Chocolate": 3.00,
+    "Coulant": 3.00,
+    "Helados Ben Jerrys": {
+      "precio": 6.30,
+      "texto": "Varios sabores de tarrinas 500ml."
+    }
+  },
+
+  "Pizzas Artesanas": {
+    "Margarita": {
+      "normal": 5.50, 
+      "mediana": 6.50,
+      "texto": "Tomate y Mozzarella"
+    },
+
+    "Prosciutto": {
+      "normal": 5.90,
+      "mediana": 7.50,
+      "texto": "Jamón York"
+    },
+
+    "De Atún": {
+      "normal": 6.00,
+      "mediana": 7.80
+    },
+
+    "De Chorizo": {
+      "normal": 6.00,
+      "mediana": 7.50
+    },
+
+    "Burata": {
+      "mediana": 10.00,
+      "texto": "Champiñón, Parmesano, Tomate Cherry y Pesto"
+    },
+
+    "Azul": {
+      "normal": 6.50,
+      "mediana": 7.50,
+      "texto": "Roquefort"
+    },
+
+    "Reina": {
+      "normal": 6.00,
+      "mediana": 7.50,
+      "texto": "Champiñón y Jamón York"
+    },
+
+    "Tierra y Mar": {
+      "normal": 6.00,
+      "mediana": 7.50,
+      "texto": "Champiñón, Jamón York y Anchoas"
+    },
+
+    "Salazón": {
+      "normal": 6.00,
+      "mediana": 7.50,
+      "texto": "Champiñón, Cebolla, Bacon y Anchoas"
+    },
+
+    "Vegetariana": {
+      "normal": 6.50,
+      "mediana": 8.00,
+      "texto": "Cebolla, Pimiento, Alcachofas y Alcaparras"
+    },
+
+    "Chachi": {
+      "normal": 6.50,
+      "mediana": 8.00,
+      "texto": "Champiñón, Jamón York y Atún"
+    },
+
+    "Nápoli": {
+      "normal": 6.50,
+      "mediana": 8.00,
+      "texto": "Champiñón, Jamón York, Anchoas y Alcaparras"
+    },
+
+    "Torrija": {
+      "normal": 6.50,
+      "mediana": 8.00,
+      "texto": "Champiñón y Jamón Ibérico"
+    },
+
+    "3 Quesos": {
+      "normal": 6.30,
+      "mediana": 8.00,
+      "texto": "Emmental, Roquefort y Mozzarella"
+    },
+
+    "4 Quesos": {
+      "normal": 6.50,
+      "mediana": 8.50,
+      "texto": "Emmental, Roquefort, Cabra y Mozzarella"
+    },
+
+    "Los Romeros": {
+      "normal": 6.50,
+      "mediana": 8.50,
+      "texto": "Champiñón, Bacon, Chorizo, York y Emmental"
+    },
+
+    "Boloñesa": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Tomate, Salsa Boloñesa y Mozzarella"
+    },
+
+    "Siciliana": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Salchicha Fresca, Aceite Picante, Tomate y Mozzarella"
+    },
+
+    "Cheddar": {
+      "normal": 7.50,
+      "mediana": 9.10,
+      "texto": "Bacon, Pollo, Carne picada y Cheddar"
+    },
+
+    "Gorgonzola": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Tomate, Gorgonzola y Mozzarella"
+    },
+
+    "Hornazo": {
+      "normal": 7.00,
+      "mediana": 8.70,
+      "texto": "3 ingredientes a elegir, Tomate y Mozzarella"
+    },
+
+    "4 Fromages": {
+      "normal": 7.00,
+      "mediana": 8.60,
+      "texto": "Provolone, Salsa Barbacoa, Cabra, Mozzarella y Emmental"
+    },
+
+    "Búfala": {
+      "normal": 6.50,
+      "mediana": 8.10,
+      "texto": "Tomate, Búfala y Mozzarella"
+    },
+
+    "Carbonara": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Bacon, Nata, Mozzarella, Huevo y Emmental"
+    },
+
+    "Manchega": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Queso Viejo, Mozzarella y Emmental"
+    },
+
+    "Mediterránea": {
+      "normal": 7.00,
+      "mediana": 8.10,
+      "texto": "Calabacín, Berenjenas y Mozzarella"
+    },
+
+    "Ibérica": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Jamón Ibérico y Mozzarella"
+    },
+
+    "Super Queso": {
+      "normal": 7.50,
+      "mediana": 8.50,
+      "texto": "Mozzarella, Provolone, Parmesano, Cabra y Emmental"
+    },
+
+    "Al pesto": {
+      "normal": 7.00,
+      "mediana": 8.50,
+      "texto": "Pollo braseado, Pesto, Tomate Cherry y Parmesano"
+    },
+
+    "Igredientes": {
+      "precio": {
+        "normal": 1.10,
+        "grande": 1.30
+      },
+
+      "ingredientes": [
+        "Tomate", "natura", "Champiñones", "Cebolla",
+        "Emmental", "Jamón Serrano", "Atún", "Anchoas",
+        "Brie", "Cheddar", "Roquefort", "Jamón York", 
+        "Alcachofa", "Tomate", "Bacon", "Pimiento",
+        "Cabra", "Chorizo", "Alcaparras", "Berenjenas",
+        "Mozzarella", "Huevo Duro", "Pimiento Verde",
+        "Calabacín", "Gorgonzola", "Provolone"
+      ]
     }
   }
 }
