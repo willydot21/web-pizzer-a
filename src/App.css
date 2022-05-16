@@ -12,3 +12,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.fix {
+  clear: both;
+}

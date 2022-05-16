@@ -1,0 +1,51 @@
+
+.menu-categories {
+  margin-top: 120px;
+  padding: 5% 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.categories-title {
+  color: rgb(255, 128, 128);
+  margin: 20px 5%;
+  font-size: 1.5rem;
+}
+
+.categories-container {
+  margin: 0px 5%;
+  display: grid;
+  gap: 15px;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  text-align: center;
+}
+
+.categories-container::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-category {
+  font-family: "Quicksand";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: min-content;
+  background-color: rgb(255, 128, 128);
+  padding: 20% 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: .2s ease-in-out;
+}
+
+.menu-category:hover {
+  cursor: pointer;
+}
+
+.menu-category:active {
+  background-color: rgb(255, 213, 213);
+  color: rgb(115, 115, 115);
+}
