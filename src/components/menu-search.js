@@ -1,4 +1,5 @@
 
+import './styles/menu-search.css';
 import { changeSuggestions } from '../pages/menu/functions';
 
 const MenuSearch = props => {
@@ -7,7 +8,7 @@ const MenuSearch = props => {
 
   const setSuggestions = props.setSuggestions;
 
-  const handleOnChange = () => {
+  const handleSearch = () => {
     const query = ref_.current.firstChild.value;
     changeSuggestions(query, setSuggestions);
   };
@@ -16,7 +17,12 @@ const MenuSearch = props => {
     <div className="menu-search" ref={ ref_ } >
       <input 
         type="text"
-        onChange={ handleOnChange }
+        onChange={ handleSearch }
+      />
+      <input
+        type="button"
+        onClick={ handleSearch }
+        value="search"
       />
     </div>
   );

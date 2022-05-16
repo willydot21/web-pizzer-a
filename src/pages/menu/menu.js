@@ -5,6 +5,7 @@ import MenuSearch from "../../components/menu-search";
 import MenuSuggestions from "../../components/menu-suggestions";
 import MenuContainer from "../../components/menu-container";
 import menuDOM from "./menu-dom";
+import { changeTitle } from "../../utils";
 
 const Menu = () => {
 
@@ -17,6 +18,8 @@ const Menu = () => {
 
   const { suggestions, setSuggestions } = states;
 
+  changeTitle('Menu');
+
   return (
     <div id="app-menu">
       <MenuNavbar />
@@ -27,7 +30,7 @@ const Menu = () => {
           ref_={ menuSearchRef }
           setSuggestions={setSuggestions}
         />
-        <MenuSuggestions suggestions={Object.keys(suggestions)}/>
+        <MenuSuggestions suggestions={suggestions}/>
       </div>
 
       <MenuContainer content={suggestions}/>

@@ -7,6 +7,7 @@ import HoursSection from "../components/hours-section";
 import FollowSection from "../components/follow-section";
 import AppFooter from "../components/footer";
 import { useRef } from "react";
+import { changeTitle } from "../utils";
 
 export default function Home() {
 
@@ -22,6 +23,8 @@ export default function Home() {
   const scrollTo = ( ref ) => {
     ref.current.scrollIntoView();
   }
+
+  changeTitle('Home');
 
   return (
     <div id="app-home">

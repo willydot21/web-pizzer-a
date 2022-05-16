@@ -76,8 +76,13 @@ const getFoodProperties = (foodName) => {
     return {};
 }
 
+const changeTitle = title => {
+  document.querySelector('title').innerHTML = title;
+}
+
 export {
     parsedMenu,
+    changeTitle,
     getFoodProperties,
     removeAcentuations,
     food

@@ -1,4 +1,6 @@
 
+import './styles/menu-container.css';
+
 const MenuContainer = props => {
   
   const content = props.content;

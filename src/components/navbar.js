@@ -21,7 +21,7 @@ const AppNavbar = props => {
       <a 
         className="nav-link subtitle-text" 
         onClick={ () => { handlerOnClick(followRef) } }> 
-      CONTACT 
+        CONTACTO
       </a>
       <a href="https://es-es.facebook.com/losromeroshorno/" className="facebook-icon">f</a>
     </nav>

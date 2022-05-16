@@ -1,13 +1,15 @@
 
 import { useParams, Navigate } from "react-router-dom";
 import MenuContainer from "../../components/menu-container";
-import {parsedMenu} from '../../utils';
+import {changeTitle, parsedMenu} from '../../utils';
 
 const MenuCategory = () => {
   
   const categories = Object.keys(parsedMenu);
   
   const category = decodeURI( useParams().category );
+
+  changeTitle(`Categoria ${category}`)
 
   if ( categories.includes(category) ){
     return (
