@@ -2,7 +2,7 @@
 import './styles/menu-categories.css';
 import menu from '../menu.json';
 
-const MenuCategories = props => {
+const MenuCategories = () => {
   
   const keys = Object.keys(menu);
 
@@ -15,7 +15,7 @@ const MenuCategories = props => {
         <div className="categories-container">
           {
             keys.map( key => (
-              <a className="menu-category" href={`/menu/${ key }`}>
+              <a className="menu-category" href={`/menu/${ encodeURI(key) }`}>
                 {key}
               </a>
             ))

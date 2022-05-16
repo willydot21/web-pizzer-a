@@ -15,7 +15,7 @@ const Menu = () => {
 
   const { menuSearchRef } = refs;
 
-  const { content, suggestions, setSuggestions } = states;
+  const { suggestions, setSuggestions } = states;
 
   return (
     <div id="app-menu">
@@ -27,10 +27,10 @@ const Menu = () => {
           ref_={ menuSearchRef }
           setSuggestions={setSuggestions}
         />
-        <MenuSuggestions suggestions={ suggestions }/>
+        <MenuSuggestions suggestions={Object.keys(suggestions)}/>
       </div>
 
-      <MenuContainer />
+      <MenuContainer content={suggestions}/>
     </div>
   );
 }
