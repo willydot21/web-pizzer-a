@@ -1,0 +1,39 @@
+
+.menu-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.menu-search-text {
+  outline: none;
+  width: 40vw;
+  max-width: 400px;
+  height: 15px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.menu-search-button {
+  border: 1px solid rgb(255, 16, 16);
+  background-color: rgb(255, 91, 91);
+  width: 17vw;
+  height: 35px;
+  max-width: 100px;
+  max-height: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: .1s;
+}
+
+.menu-search-button:hover {
+  cursor: pointer;
+}
+
+.menu-search-button:active {
+  background-color: rgb(228, 79, 79);
+  border: 1px solid rgb(255, 255, 255);
+}

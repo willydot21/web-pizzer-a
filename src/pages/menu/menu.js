@@ -1,4 +1,5 @@
 
+import './menu.css';
 import MenuNavbar from "../../components/menu-navbar";
 import MenuCategories from "../../components/menu-categories";
 import MenuSearch from "../../components/menu-search";
@@ -23,16 +24,18 @@ const Menu = () => {
   return (
     <div id="app-menu">
       <MenuNavbar />
-      <MenuCategories />
 
       <div className="menu-searcher">
-        <MenuSearch 
-          ref_={ menuSearchRef }
-          setSuggestions={setSuggestions}
-        />
-        <MenuSuggestions suggestions={suggestions}/>
+        <div className="search-separator">
+          <MenuSearch 
+            ref_={ menuSearchRef }
+            setSuggestions={setSuggestions}
+          />
+          <MenuSuggestions suggestions={suggestions}/>
+        </div>
       </div>
-
+      
+      <MenuCategories />
       <MenuContainer content={suggestions}/>
     </div>
   );

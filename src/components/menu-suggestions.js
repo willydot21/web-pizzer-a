@@ -5,6 +5,7 @@ const MenuSuggestions = props => {
   
   const suggestions = props.suggestions;
   const suggestions_keys = Object.keys(suggestions);
+  const first_results = suggestions_keys.slice(0, 6);
 
   const renderItem = suggestion => {
 
@@ -12,7 +13,7 @@ const MenuSuggestions = props => {
 
     return (
       <li className="suggestion">
-        <div className="separator">
+        <div className="separator subtitle-text">
           <img src={image} />
           {suggestion}
         </div>
@@ -21,9 +22,17 @@ const MenuSuggestions = props => {
   }
 
   return (
-    <ul className="menu-suggestions">
-      { suggestions_keys.map(renderItem) }
-    </ul>
+    <div className="menu-suggestions">
+      <ul className="suggestions-container">
+        {first_results.map(renderItem)}
+        <li className="suggestion suggestion-text">
+          {
+            suggestions_keys.length > 6 ?
+              '....' : ''
+          }
+        </li>
+      </ul>
+    </div>
   );
 }
 

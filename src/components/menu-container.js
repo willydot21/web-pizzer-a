@@ -11,21 +11,21 @@ const MenuContainer = props => {
     const item = content[itemName];
 
     return (
-      <div className="menu-item">
+      <li className="menu-item">
         <img src={item.image} className="menu-item-image"/>
-        <h3 className="menu-item-title">
+        <h3 className="subtitle-text">
           {itemName}
         </h3>
-      </div>
+      </li>
     );
 
   }
 
   return (
-    <div className="menu-container">
-      {
-        contentKeys.map(renderItem)
-      }
+    <div className="center-menu">
+      <ul className="menu-container">
+        { contentKeys.map(renderItem) }
+      </ul>
     </div>
   );
 

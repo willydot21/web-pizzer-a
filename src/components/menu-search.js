@@ -16,10 +16,12 @@ const MenuSearch = props => {
   return (
     <div className="menu-search" ref={ ref_ } >
       <input 
+        className="menu-search-text subtitle-text"
         type="text"
         onChange={ handleSearch }
       />
       <input
+        className="menu-search-button subtitle-text"
         type="button"
         onClick={ handleSearch }
         value="search"

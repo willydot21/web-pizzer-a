@@ -15,7 +15,7 @@ const MenuCategories = () => {
         <div className="categories-container">
           {
             keys.map( key => (
-              <a className="menu-category" href={`/menu/${ encodeURI(key) }`}>
+              <a className="menu-category subtitle-text" href={`/menu/${ encodeURI(key) }`}>
                 {key}
               </a>
             ))
