@@ -27,6 +27,12 @@ const Menu = () => {
 
       <div className="menu-searcher">
         <div className="search-separator">
+          <h3 className="menu-title">
+            Menu
+            <span class="material-icons">
+              restaurant
+            </span>
+          </h3>
           <MenuSearch 
             ref_={ menuSearchRef }
             setSuggestions={setSuggestions}

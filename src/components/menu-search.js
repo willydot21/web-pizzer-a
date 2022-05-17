@@ -19,6 +19,7 @@ const MenuSearch = props => {
         className="menu-search-text subtitle-text"
         type="text"
         onChange={ handleSearch }
+        placeholder="search anything..."
       />
       <input
         className="menu-search-button subtitle-text"

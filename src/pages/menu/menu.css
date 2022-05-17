@@ -1,12 +1,20 @@
 
+.menu-title {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 4rem;
+  color: rgb(98, 98, 98);
+  padding-bottom: 10vh;
+}
+
 .menu-searcher {
-  padding-top: 30vh;
+  padding-top: 20vh;
   padding-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: 
-    linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgb(255, 255, 255));
+    linear-gradient(to bottom, rgba(0, 0, 0, .1), rgb(255, 255, 255));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,11 +23,4 @@
 .search-separator {
   max-width: 600px;
   width: 100%;
-}
-
-@media (width > 1200px) {
-  .menu-searcher {
-    padding-bottom: 10vh;
-    padding-top: 35vh;
-  }
 }
