@@ -1,10 +1,11 @@
 
 import './styles/menu-categories.css';
-import menu from '../menu.json';
+import { parsedMenu } from '../utils';
 
-const MenuCategories = () => {
+const MenuCategories = props => {
   
-  const keys = Object.keys(menu);
+  const keys = Object.keys(parsedMenu);
+  const setSuggestions = props.setSuggestions;
 
   return (
     <div className="menu-categories">
@@ -15,7 +16,9 @@ const MenuCategories = () => {
         <div className="categories-container">
           {
             keys.map( key => (
-              <a className="menu-category subtitle-text" href={`/menu/${ encodeURI(key) }`}>
+              <a 
+                className="menu-category subtitle-text" 
+                onClick={ () => setSuggestions(parsedMenu[key]) }>
                 {key}
               </a>
             ))

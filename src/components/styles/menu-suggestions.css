@@ -29,6 +29,7 @@
 
 .suggestion {
   margin-left: 14px;
+  transition-timing-function: ease;
 }
 
 .suggestion-text {

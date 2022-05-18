@@ -36,7 +36,7 @@ const parsedMenu = function () {
         category_food_keys.forEach(foodName => {
 
             if (!filter.includes(foodName.toLowerCase())) {
-                this_[category][foodName] = menu[category][foodName];
+                this_[category][foodName] = { ...menu[category][foodName], categoria:category };
             }
 
         });

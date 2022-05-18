@@ -1,20 +1,42 @@
 
 import './styles/menu-container.css';
+
 const MenuContainer = props => {
-  
+
+  document.body.style.backgroundAttachment = 'fixed';
+
   const content = props.content;
+
   const contentKeys = Object.keys(content);
 
   const renderItem = itemName => {
     
     const item = content[itemName];
-
+    const item_keys = Object.keys(item);
+    
     return (
       <li className="menu-item">
-        <img src={item.image} className="menu-item-image"/>
+        <img src={item.image} className="menu-item-image" />
         <h3 className="subtitle-text">
           {itemName}
         </h3>
+        <div className="item-info">
+          {
+            item_keys.map( key => {
+              if ( key !== 'image' ){
+                return (
+                  <p className="subtitle-text">
+                    {
+                      key && item[key] && !['texto', 'categoria'].includes(key) ?
+                        `${key}: ${item[key]} EUR`
+                        : '' || item[key]
+                    }
+                  </p>
+                )
+              }
+            })
+          }
+        </div>
       </li>
     );
 

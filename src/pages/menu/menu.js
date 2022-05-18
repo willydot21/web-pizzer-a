@@ -41,7 +41,7 @@ const Menu = () => {
         </div>
       </div>
       
-      <MenuCategories />
+      <MenuCategories setSuggestions={setSuggestions}/>
       <MenuContainer content={suggestions}/>
     </div>
   );

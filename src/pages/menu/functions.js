@@ -36,7 +36,7 @@ const changeSuggestions = (value, setSuggestions) => {
     suggestions[food_name] = getFoodProperties(food_name);
   });
 
-  if( query.length > 0 ){
+  if (query.length > 0) {
     setSuggestions(suggestions);
   } else {
     setSuggestions([]);

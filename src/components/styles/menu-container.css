@@ -21,12 +21,6 @@
   color: rgb(42, 42, 42);
 }
 
-@media (width > 500px) {
-  .no-results-text {
-    font-size: 3rem;
-  }
-}
-
 .center-menu {
   display: flex;
   justify-content: center;
@@ -38,17 +32,17 @@
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  max-width: 1000px;
+  max-width: 780px;
 }
 
 .menu-item {
   display: inline-block;
   position: relative;
   text-align: center;
-  width: 45%;
+  width: 40%;
   height: auto;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .menu-item:first-child {
@@ -61,10 +55,10 @@
 }
 
 .menu-item img {
-  max-width: 550px;
+  max-width: 450px;
   max-height: 450px;
   width: 100%;
-  height: 40vh;
+  height: 55vh;
   object-fit: cover;
   object-position: center;
   border-radius: 5px;
@@ -74,12 +68,53 @@
   color: rgb(29, 29, 29);
 }
 
-@media (width < 440px) {
+.item-info {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.item-info p{
+  margin: 10px 0px;
+  color: rgb(184, 184, 184);
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 10px;
+}
+
+.item-info p:last-child {
+  color: rgb(255, 151, 151);
+  padding: 5px 0px;
+  background-color: rgb(255, 236, 236);
+}
+
+@media (width > 520px) {
+  .menu-item {
+    width: 40%;
+  }
+
+  .menu-item img {
+    height: 30vh;
+  }
+}
+
+@media (width < 520px) {
   .menu-item {
     width: 42%;
   }
 
   .menu-item img {
     height: 25vh;
+  }
+}
+
+@media (width > 500px) {
+  .no-results-text {
+    font-size: 4rem;
+  }
+}
+
+@media (width > 820px) {
+  .menu-item {
+    max-width: 220px;
   }
 }

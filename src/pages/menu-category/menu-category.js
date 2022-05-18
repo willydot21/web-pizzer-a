@@ -7,11 +7,11 @@ const MenuCategory = () => {
   
   const categories = Object.keys(parsedMenu);
   
-  const category = decodeURI( useParams().category );
+  const category = decodeURI(useParams().category);
 
-  changeTitle(`Categoria ${category}`)
+  changeTitle(`Categoria ${category}`);
 
-  if ( categories.includes(category) ){
+  if (categories.includes(category)){
     return (
       <div className="app-menu-category">
         <h1>{category}</h1>
@@ -22,7 +22,7 @@ const MenuCategory = () => {
   
   return (
     <Navigate to="/404" />
-  )
+  );
 }
 
 export default MenuCategory;
