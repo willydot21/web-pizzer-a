@@ -50,7 +50,10 @@
 .menu-category:active {
   background-color: rgb(255, 213, 213);
   color: rgb(115, 115, 115);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.13);
 }
+
 
 @media (width > 600px) {
   .menu-category {
