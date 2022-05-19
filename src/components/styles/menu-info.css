@@ -18,7 +18,16 @@
 
 .text-separator {
   margin: 5px 0px;
-  padding: 10px 0px;
+  padding: 5px 0px;
+}
+
+.text-separator p {
+  margin:10px 0px;
+}
+
+.text-separator p span {
+  font-size: 1rem;
+  margin-left: 5px;
 }
 
 .right-img {

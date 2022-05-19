@@ -34,14 +34,14 @@ const Menu = () => {
             </span>
           </h3>
           <MenuSearch 
-            ref_={ menuSearchRef }
+            ref_={menuSearchRef}
             setSuggestions={setSuggestions}
           />
           <MenuSuggestions suggestions={suggestions}/>
         </div>
       </div>
       
-      <MenuCategories setSuggestions={setSuggestions}/>
+      <MenuCategories options={{ menuSearchRef, setSuggestions  }}/>
       <MenuContainer content={suggestions}/>
     </div>
   );

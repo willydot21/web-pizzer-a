@@ -37,13 +37,13 @@ export default function Home() {
       
       <AppHero />
       <MenuInfo menuRef={menuRef} />
-      <AboutSection aboutRef={aboutRef}/>
+      <AboutSection aboutRef={aboutRef} />
       <HoursSection hoursRef={hoursRef} />
       <FollowSection followRef={followRef} /> 
 
       <AppFooter 
         handlerOnClick={
-        { refs , action:scrollTo } 
+        { refs, action:scrollTo } 
         }
       />
 

@@ -16,18 +16,24 @@
 }
 
 .hours-txt {
-  font-size: .6em;
+  font-size: .4em;
 }
 
-@media ( width > 500px ){
+@media ( width > 400px ){
   .hours-txt {
-    font-size: .8em;
+    font-size: .5em;
+  }
+}
+
+@media ( width > 530px ){
+  .hours-txt {
+    font-size: .7em;
   }
 }
 
 
 @media ( width > 650px ){
   .hours-txt {
-    font-size: 1em;
+    font-size: .8em;
   }
 }

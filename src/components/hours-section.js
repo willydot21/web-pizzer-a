@@ -18,7 +18,11 @@ const HoursSection = props => {
           <p className="subtitle-text section-subtitle hours-txt"> 20:00PM - 23:30PM </p>
         </div>
         <div className="separator">
-          <p className="section-text hours-txt"> VIERNES - DOMINGO </p>
+          <p className="section-text hours-txt"> VIERNES - SABADO </p>
+          <p className=" subtitle-text section-subtitle hours-txt"> 10:00AM - 15:30PM &<br /> 20:00PM - 00:00PM </p>
+        </div>
+        <div className="separator">
+          <p className="section-text hours-txt"> DOMINGO </p>
           <p className=" subtitle-text section-subtitle hours-txt"> 10:00AM - 15:30PM &<br /> 20:00PM - 23:30PM </p>
         </div>
       </div>

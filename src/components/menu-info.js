@@ -12,25 +12,33 @@ const MenuInfo = props => {
       <div className="menu-info-left">
 
         <h3 className="section-title">
-          Lunch Specials 
+          Servicios & Menu
         </h3>
 
         <div className="menu-info-text">
           <div className="text-separator">
             <p className="subtitle-text section-subtitle">
-              2 SLICES OF CHEESE PIZZA <br/> WITH A DRINK $4.60
+              Servicio a domicilio 
+              <span class="material-icons">
+                call
+              </span>
             </p>
             <p className="subtitle-text section-text">
-              +takes (toppings are extra) <br/> Please see menu
+              Disponible de 13:00 a 15:00 PM <br/> y
+              de 20:30 a 24:00 PM. por solo
+              <br/><strong>1.50€</strong>
             </p>
           </div>
 
           <div className="text-separator">
             <p className="subtitle-text section-subtitle">
-              1 SLICE OF CHEESE PIZZA WITH A SMALL <br/> HOUSE SALAD & DRINK $6.50
+              Diversidad Gastronómica, <br/>
+              tanto local como extranjera <span className="material-icons">
+                soup_kitchen
+              </span>
             </p>
             <p className="subtitle-text section-text">
-              +takes (toppings are extra)
+              El sabor es la garantía de lo artesano
             </p>
             <p className="section-final-text">
             Horno de leña Los Romeros
@@ -39,7 +47,7 @@ const MenuInfo = props => {
         </div>
 
         <div className="link-button"> 
-          <a href="/menu" > See Menu </a>
+          <a href="/menu" > Ver menu </a>
         </div>
 
       </div>

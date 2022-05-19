@@ -2,10 +2,19 @@
 import './styles/menu-categories.css';
 import { parsedMenu } from '../utils';
 
+
 const MenuCategories = props => {
   
   const keys = Object.keys(parsedMenu);
-  const setSuggestions = props.setSuggestions;
+  const {
+    menuSearchRef,
+    setSuggestions
+  } = props.options;
+
+  const handleChangeCategory = (value) => {
+    menuSearchRef.current.firstChild.value = '';
+    setSuggestions(value);
+  }
 
   return (
     <div className="menu-categories">
@@ -18,7 +27,7 @@ const MenuCategories = props => {
             keys.map( key => (
               <a 
                 className="menu-category subtitle-text" 
-                onClick={ () => setSuggestions(parsedMenu[key]) }>
+                onClick={ () => handleChangeCategory(parsedMenu[key]) }>
                 {key}
               </a>
             ))

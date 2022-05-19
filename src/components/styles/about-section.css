@@ -11,8 +11,44 @@
   padding: 60px 20%;
 }
 
-.about-section p {
-  margin-top: 40px;
-  color: white;
-  font-weight: 400;
+.about-text{
+  color: rgb(212, 212, 212);
+  padding: 20px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.sub-text {
+  margin-top: 10px;
+  color: rgb(167, 167, 167);
+}
+
+.see-menu-link {
+  color: rgb(255, 111, 111);
+}
+
+.presentation-video {
+  margin-top: 10px;
+}
+
+.presentation-video p {
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  margin-top: 10px;
+  padding: 20px 20px;
+}
+
+.presentation-video iframe {
+  width: 90vw;
+  height: 50vw;
+  max-width: 640px;
+  max-height: 480px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+@media (width > 500px) {
+  .presentation-video p {
+    font-size: 1.5rem;
+  }
 }

@@ -4,14 +4,19 @@ import './styles/about-section.css';
 const AboutSection = props => {
   
   const aboutRef = props.aboutRef;
-
+  
   return(
     <div className="about-section" ref={aboutRef}>
       <div className="center-content">
         <h3 className="section-white-title">Sobre nosotros</h3> 
-        <p className="subtitle-text">
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+        <p className="subtitle-text about-text">
+          Horno de leña Los Romeros, expertos en comida exquisita y reparto a domicilio. (Alcala de Guadaira, Sevilla)
+          <br/> En nuestro menu podrás encontrar:
+          <p className="sub-text">Pizzas, comida casera, empanadas, empanados, carnes al horno de leña, carnes a la parrilla, repostería casera, paella, pastas, bocatas, tortillas y mucho más en <a href="/menu" className="see-menu-link subtitle-text">Menu</a></p>
         </p>
+        <div className="subtitle-text presentation-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/PUD5rWO1CyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div> 
   );

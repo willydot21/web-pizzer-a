@@ -41,7 +41,7 @@ const AppFooter = props => {
           </a>
 
         </div> 
-        <p className="footer-rights">© Los Romeros • All rights reserved • Design by DSKY</p>
+        <p className="footer-rights">© Los Romeros •</p>
       </div>
     </footer>
   );
